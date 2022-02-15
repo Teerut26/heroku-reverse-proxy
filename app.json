@@ -12,8 +12,11 @@
 		}
 	],
 	"env": {
-		"UPSTREAM_SERVER": {
-			"description": "URL of upstream server to which all requests should be proxied"
+		"INDEX": {
+			"description": "INDEX"
+		},
+		"API": {
+			"description": "API"
 		}
 	},
 	"stack": "cedar-14"
